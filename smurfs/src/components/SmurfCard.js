@@ -3,8 +3,11 @@ import { Card } from 'semantic-ui-react';
 import style from 'styled-components'
 
 const CARD = style.div`
-border: 1px solid red;
-width: 50%;
+border: 1px solid navy;
+border-radius: 10px;
+width: 30%;
+margin: 2%;
+padding: 3%;
 `
 
 
