@@ -4,7 +4,6 @@ export const FETCH_SMURF = 'FETCH_SMURF';
 
 export const fetchSmurf = () => {
     return function (dispatch) {
-        // setTimeout(()=> {}, 2000)
         Axios.get('http://localhost:3333/smurfs')
             .then(res => {
                 console.log(res);
@@ -29,3 +28,4 @@ export const addSmurf = (smurfObj) => {
 
     }
 } 
+
